@@ -21,7 +21,7 @@
         <label for="fnacimiento">Fecha de nacimiento: </label>
         <label for="dia" >Dia: </label>
             <!-- select>opt[value=$]{$}*31 -->
-            <select name="fnacimiento" id="fnacimiento" required>
+            <select name="dia" id="dia" required>
                 <option value="">[Seleccione el dia]</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -55,10 +55,10 @@
                 <option value="30">30</option>
                 <option value="31">31</option>
             </select>
-        
+
         <label for="mes">Mes: </label>
             <!-- select>opt[value=$]{$}*12 -->
-            <select name="mesfnacimiento" id="mesfnacimiento" required>
+            <select name="mes" id="mes" required>
                 <option value="">[Seleccione el mes]</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -73,7 +73,7 @@
                 <option value="11">11</option>
                 <option value="12">12</option>
             </select>
-        <label for="anio">Año: </label> 
+        <label for="anio">Año: </label>
             <select name="anio" id="anio" required>
                 <option value="">[Seleccione el año]</option>
                 <option value="01">01</option>
@@ -97,17 +97,15 @@
                 <option value="19">19</option>
                 <option value="20">20</option>
             </select>
-        
-    
     <br>
     <p></p>
     <label for="sexo">Sexo: </label>
     <label for="mujer">Mujer: </label>
-        <input type="radio" name="mujer" id="mujer" >  
-         
+        <input type="radio" name="sexo" id="mujer" >
+
     <label for="hombre">Hombre: </label>
-        <input type="radio" name="hombre" id="hombre" >
-        
+        <input type="radio" name="sexo" id="hombre" >
+
     <hr>
     <label for="asunto"> Asunto </label>
     <br>
